@@ -1,6 +1,6 @@
 # Introduction:
 
-The Lempel–Ziv–Welch (LZW) algorithm is a lossless data compression algorithm. LZW is an adaptive compression algorithm that does not assume prior knowledge of the input data distribution. This algorithm works well when the input data is sufficiently large and there is redundancy in the data. The algorithm is simple to implement and has the potential for very high throughput in hardware implementations.
+The Lempel–Ziv–Welch (LZW) algorithm is a lossless data compression algorithm. It is an adaptive compression algorithm that does not assume prior knowledge of the input data distribution. This algorithm works well when the input data is sufficiently large and there is redundancy in the data. It is simple to implement and has the potential for very high throughput in hardware implementations.
 
 # Steps
 1. Encoding or Compressing
@@ -57,7 +57,7 @@ STRING = NEW_STRING
 ~~~
 javac filename.java
 ~~~
-After this command, a class file named filename.class will be created
+After this command, a class file named filename.class will be created.
 
 
 # Running the program
@@ -71,7 +71,7 @@ java filename InputfileName Bitlength
 
 # Data Structure
 ~~~
-HashMap data structure is used to implement the algorithm and it contains the ASCII characters as KEY along with its ascii value as VALUE for encoding and vice versa in case of decoding.
+HashMap data structure is used to implement the algorithm and it contains the ASCII characters as KEY along with its ASCII value as VALUE for encoding and vice versa in case of decoding.
 ~~~
 
 # Syntax:
@@ -99,7 +99,7 @@ ASCII Character:VALUE
 # Important points:
 ~~~
 1. BufferedReader and BufferedWriter for reading and writing to files.
-2. For encoding, Compressing.java file is used. It will generate compressed (lzw) file.
+2. For encoding, Compressing.java file is used. It will generate compressed (LZW) file.
 3. For decoding compressed file, Decompressing.java is used. It will generate decoded text file, whose contents will be same as the initial input file.
 4. The compression file is created using charset UTF_16BE and stored in 16-bit format.
 ~~~
